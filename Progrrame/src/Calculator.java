@@ -1,4 +1,4 @@
-public class Carpet {
+public class Calculator {
     private double firstNumber;
     private double secondNumber;
 
@@ -44,7 +44,7 @@ public class Carpet {
     }
 
     public static void main(String[] args) {
-        Carpet count =new Carpet();
+        Calculator count =new Calculator();
         count.setFirstNumber(5.0);
         count.setSecondNumber(4);
         System.out.println("add= " + count.getAdditionResult());
